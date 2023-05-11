@@ -1,0 +1,14 @@
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    width: 99.2vw;
+    padding: 1% 0;
+    background: #0D2123;
+
+}
+
+.navbar__links a{
+    padding: 37px;
+    text-decoration: none;
+    color: #fff;
+}

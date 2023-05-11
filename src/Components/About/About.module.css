@@ -1,0 +1,52 @@
+.container {
+  margin: 0 10%;
+  color: #000000;
+}
+
+.content__first {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 5% 5%;
+
+  /* From https://css.glass */
+  /* background: rgba(13, 33, 35, 0.22);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.8px);
+  -webkit-backdrop-filter: blur(4.8px);
+  border: 1px solid rgba(13, 33, 35, 0.57);
+  z-index: 100; */
+}
+
+.content__left {
+  display: flex;
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+  flex-direction: column;
+  padding: 0 0;
+}
+
+.content__left p {
+  padding-right: 20%;
+}
+
+.content__right {
+  height: 303px;
+  width: 340px;
+}
+
+.content__second {
+  padding: 5% 0;
+}
+
+.links {
+  margin: 5% 0;
+}
+
+.links__list {
+  display: flex;
+  padding: 0 10%;
+  justify-content: space-between;
+  align-items: center;
+}
